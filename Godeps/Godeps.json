@@ -1,0 +1,14 @@
+{
+	"ImportPath": "basic/test1",
+	"GoVersion": "go1.5.1",
+	"Deps": [
+		{
+			"ImportPath": "golang.org/x/crypto/openpgp/armor",
+			"Rev": "de93d05161db39bcbd84d3da2e54c4a18f37f0b1"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/openpgp/errors",
+			"Rev": "de93d05161db39bcbd84d3da2e54c4a18f37f0b1"
+		}
+	]
+}
