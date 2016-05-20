@@ -3,9 +3,7 @@ package main
 import (
 	"bytes"
 	"io/ioutil"
-
-	. "github.com/tendermint/go-common"
-	"github.com/golang/crypto/openpgp/armor"
+	"golang.org/x/crypto/openpgp/armor"
 )
 
 func EncodeArmor(blockType string, headers map[string]string, data []byte) string {
