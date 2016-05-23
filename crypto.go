@@ -5,6 +5,7 @@ import (
 	"io/ioutil"
 	"golang.org/x/crypto/openpgp/armor"
   "golang.org/x/crypto/ripemd160"
+  . "github.com/tendermint/go-common"
 )
 func EncodeArmor(blockType string, headers map[string]string, data []byte) string {
 	buf := new(bytes.Buffer)
