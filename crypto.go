@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"io/ioutil"
 	"golang.org/x/crypto/openpgp/armor"
+  "golang.org/x/crypto/ripemd160"
 )
 
 func EncodeArmor(blockType string, headers map[string]string, data []byte) string {
