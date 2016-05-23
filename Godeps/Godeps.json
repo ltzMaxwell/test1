@@ -3,6 +3,29 @@
 	"GoVersion": "go1.5.1",
 	"Deps": [
 		{
+			"ImportPath": "github.com/inconshreveable/log15/stack",
+			"Comment": "v2.3-48-g210d6fd",
+			"Rev": "210d6fdc4d979ef6579778f1b6ed84571454abb4"
+		},
+		{
+			"ImportPath": "github.com/inconshreveable/log15/term",
+			"Comment": "v2.3-48-g210d6fd",
+			"Rev": "210d6fdc4d979ef6579778f1b6ed84571454abb4"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-colorable",
+			"Rev": "9cbef7c35391cca05f15f8181dc0b18bc9736dbb"
+		},
+		{
+			"ImportPath": "github.com/tendermint/go-common",
+			"Rev": "fff09f55a044dd8dea9ae98955ae2ba4cbe59fca"
+		},
+		{
+			"ImportPath": "github.com/tendermint/log15",
+			"Comment": "v2.3-36-g6e46075",
+			"Rev": "6e460758f10ef42a4724b8e4a82fee59aaa0e41d"
+		},
+		{
 			"ImportPath": "golang.org/x/crypto/openpgp/armor",
 			"Rev": "de93d05161db39bcbd84d3da2e54c4a18f37f0b1"
 		},
